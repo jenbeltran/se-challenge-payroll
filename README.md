@@ -1,4 +1,52 @@
-# Wave Software Development Challenge
+### Wave Software Development Challenge - Documentation:
+
+### Question 1: Instructions on how to run the application
+1. `Git clone` this repo
+2. Run `npm install`
+3. Run `npm start`
+4. To test the application, please run `npm test`
+
+By running `npm start` this runs `node index.js`. You’ll notice that this creates a `data/payroll-report-42.json` file
+
+After you run `npm start` once, you won’t be able to run it again because the `data/payroll-report-42.json` file already exists and you’ll receive the following error in your terminal: 
+>“It seems this file has previously been uploaded, please check /se-challenge-payroll/data/payroll-report-42.json to access your file.”
+
+If you want to generate the report again, please delete `data/payroll-report-42.json` before running `npm start` again.
+
+The reason being was to cover the below case scenario:
+>If an attempt is made to upload a file with the same report ID as a previously uploaded file, this upload should fail with an error message indicating that this is not allowed.
+
+
+### Question 2: How did you test that your implementation was correct?
+To test that my implementation was correct, I created one mocha test in `tests/test-payroll-report.js`
+
+This test checks that the amount of rows in `payroll-report-45.json` equals the same amount of rows in `time-report-42.csv`.  Unfortunately due to time constraints, the test is hardcoded to check if there’s 31 rows, which is the amount of rows in the csv minus the first title row. I couldn’t figure out a way to count the amount of rows in the csv without creating another csv parser. After I attempted to create another csv parser for the test case, I realized that my test would have been flawed if I was using the same parser to parse `time-report-42.csv`. Therefore, the test case is hard coded to check if `payroll-report-45.json` has 31 rows.
+
+### Question 3: If this application was destined for a production environment, what would you add or change?
+
+If this application was destined for a production environment, I would make the following changes:
+
+1. I attempted to reduce and compile the json file by employee ID and pay period, but unfortunately was unable to figure it out. I would make another attempt to compile it. 
+
+2. I would make another attempt to edit my test case to count the amount of rows in a csv file, rather than having a hardcoded value. 
+
+3. Additionally, I would add additional test cases to check that the csv file being parsed will generate a json file with the same id in the title (Ex. if `time-report-45.csv` is being parsed, then it should produce `payroll-report-45.json` rather than `payroll-report-46.json`). 
+
+4. If this is going into production, I would assume that there might be more csv manipulations in the future such as adding more pay grades, checking for national holidays etc. For this reason, I would refactor my code to have `readCsvFile()` and `writeReport()` in separate modules, and I would make another module for the chunk of code that checks if the .json file already exists
+
+### Question 4: What compromises did you have to make as a result of the time constraints of this challenge?
+Compromises I made as a result of the time constraints are the following:
+
+1. I was unable to reduce and compile `payroll-report-x.json` files by employee ID and pay period. For now the report is sorted by employee id and then pay period start.
+
+2.The *“readCsvFile and writeReport function”* test case is supposed to count the number of rows in the `time-report-45.csv` file and compare `payroll-report-45.json`, but is partially hard coded.
+
+3. Currently, all the functions are in `index.js`, I would have attempted to refactor it in smaller modules.
+
+
+
+
+# Wave Software Development Challenge Instructions
 
 Applicants for the Full-stack Developer role at Wave must
 complete the following challenge, and submit a solution prior to the onsite
