@@ -1,0 +1,161 @@
+{
+  "payrollReport": {
+    "employeeReports": [
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-10-16", "endDate": "2023-10-31" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-11-16", "endDate": "2023-11-30" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-11-16", "endDate": "2023-11-30" },
+        "amountPaid": "$100.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-12-16", "endDate": "2023-12-31" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": { "startDate": "2023-12-16", "endDate": "2023-12-31" },
+        "amountPaid": "$100.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$360.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$330.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$360.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$330.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$230.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$60.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$60.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$230.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "3",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$120.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-02-16", "endDate": "2023-02-28" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-11-01", "endDate": "2023-11-15" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-11-16", "endDate": "2023-11-30" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-11-16", "endDate": "2023-11-30" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-11-16", "endDate": "2023-11-30" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-12-01", "endDate": "2023-12-15" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-12-16", "endDate": "2023-12-31" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-12-16", "endDate": "2023-12-31" },
+        "amountPaid": "$150.00"
+      },
+      {
+        "employeeId": "4",
+        "payPeriod": { "startDate": "2023-12-16", "endDate": "2023-12-31" },
+        "amountPaid": "$150.00"
+      }
+    ]
+  }
+}
