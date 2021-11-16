@@ -1,0 +1,27 @@
+{
+  "name": "se-challenge-payroll",
+  "version": "1.0.0",
+  "description": "Wave coding challenge for Jen Beltran",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "csv-parse": "^5.0.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenbeltran/se-challenge-payroll.git"
+  },
+  "author": "Jen Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenbeltran/se-challenge-payroll/issues"
+  },
+  "homepage": "https://github.com/jenbeltran/se-challenge-payroll#readme"
+}
